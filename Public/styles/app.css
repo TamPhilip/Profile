@@ -1,0 +1,66 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+div.welcome {
+	height: 100%;
+	text-align: center;
+}
+
+div.welcome img {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	width: 300px;
+}
+
+div.nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+	font-family: 'Lato',  sans-serif
+}
+
+div.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div.nav li {
+	/* border-right: 1px solid #bbb; */
+    float: left;
+}
+
+div.nav li a {
+	text-transform: uppercase;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.nav li a.name {
+	float: left;
+	padding: 15px 15px;
+	line-height: 20px;
+	display: -ms-inline-grid;
+	background-color: none;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 900;
+}
+
+/* Change the link color to #111 (black) on hover */
+div.nav li a:hover {
+    background-color: transparent;
+}

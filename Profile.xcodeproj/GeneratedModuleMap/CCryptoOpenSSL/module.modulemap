@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/philiptam/Projects/ProfileWebsite/Profile/.build/checkouts/crypto.git--6038379570960500129/Sources/CCryptoOpenSSL/include"
+    export *
+}
